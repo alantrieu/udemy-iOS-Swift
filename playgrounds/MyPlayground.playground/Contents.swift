@@ -1,11 +1,16 @@
-import UIKit
+import Foundation
 
-let array = [6,2,3,9,4,1]
+var width: Float = 3.4
+var height: Float = 2.1
 
-func addOne (n1: Int) -> Int {
-    return n1 + 1
+var bucketsOfPaint: Int {
+    get {
+        return Int((width * height / 1.5).rounded(.up))
+    }
+    
+    set {
+        print("This amount of paint can cover \(Float(newValue) * 1.5) square metres")
+    }
 }
 
-array.map(addOne)
-
-print(array.map({$0 + 1}))
+print(bucketsOfPaint)
