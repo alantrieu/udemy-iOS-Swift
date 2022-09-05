@@ -1,0 +1,1 @@
+@mention uses the google chrome developer tool on itself. Points out javascript console has extensive API  #killerhack #sxsw

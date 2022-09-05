@@ -1,0 +1,1 @@
+@mention worked with @mention to create open-source s2 to fill the gap needed by location-based applications that use nosql db model #sxsw

@@ -1,0 +1,1 @@
+#SXSW protip: if your iPhone keeps saying it has no internet connection but you have a good signal, turn off 3G. Edge works perfectly.
